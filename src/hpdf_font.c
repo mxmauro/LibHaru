@@ -1318,6 +1318,8 @@ HPDF_Font_ConvertText  (HPDF_Font        font,
     /* set relief font index */
     if (attr->relief_font)
         SetReliefFontIndex (font);
+    else
+        HPDF_MemSet (attr->text_cache + (attr->text_cache_allocated / 2), 0, attr->text_cache_allocated - (attr->text_cache_allocated / 2));
 
     /* remove control character */
     if (!(flags & HPDF_CONVERT_HOLD_CHARACTERS)) {
