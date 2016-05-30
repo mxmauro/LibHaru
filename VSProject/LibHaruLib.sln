@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8E8C9C4A-08C1-402C-A419-8CB08625E463}") = "LibHaruLib", "LibHaruLib.vcxproj", "{F3155F88-976B-41F8-96EA-9FD7B9A036E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Debug|Win32.Build.0 = Debug|Win32
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Debug|x64.ActiveCfg = Debug|x64
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Debug|x64.Build.0 = Debug|x64
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Release|Win32.ActiveCfg = Release|Win32
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Release|Win32.Build.0 = Release|Win32
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Release|x64.ActiveCfg = Release|x64
+		{F3155F88-976B-41F8-96EA-9FD7B9A036E6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

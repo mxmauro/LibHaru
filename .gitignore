@@ -41,3 +41,7 @@ CPackSourceConfig.cmake
 cmake_install.cmake
 depcomp
 *.~*
+*.user
+*.suo
+/obj/
+/Libs/

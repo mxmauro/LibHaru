@@ -1252,7 +1252,7 @@ HPDF_Font_ConvertText  (HPDF_Font        font,
     HPDF_List list;
     HPDF_Converter converter;
     HPDF_UINT bytes_factor, chars_factor, allocated, i;
-    HPDF_BYTE *dst;
+    HPDF_BYTE *dst = NULL;
 
     HPDF_PTRACE((" HPDF_Font_ConvertText\n"));
 
