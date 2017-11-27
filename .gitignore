@@ -45,3 +45,4 @@ depcomp
 *.suo
 /obj/
 /Libs/
+/VSProject/.vs/

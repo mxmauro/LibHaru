@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8E8C9C4A-08C1-402C-A419-8CB08625E463}") = "LibHaruLib", "LibHaruLib.vcxproj", "{F3155F88-976B-41F8-96EA-9FD7B9A036E6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibHaruLib", "LibHaruLib.vcxproj", "{F3155F88-976B-41F8-96EA-9FD7B9A036E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85F2C26B-7CA0-4CE3-A5F9-5057305D2964}
 	EndGlobalSection
 EndGlobal
